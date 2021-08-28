@@ -1,0 +1,277 @@
+
+
+/* Navbar */
+	.nav-item, .navbar-brand {
+	    padding: 0.5rem 1.5rem;
+	}
+	nav{
+		font-family: 'Wellfleet', cursive;
+	}
+	nav .container-fluid{
+		padding-top: 16px;
+		font-size: 18px;
+	}
+	.navbar{
+		padding: 1rem;
+    	border-bottom: 1px solid #ffc627;
+    	width: 100%;
+	}
+	.ord{
+		background-color: #ffc627;
+		border-radius: 10px;
+	}
+	.ord:hover{
+		background-color: #FFDC7B;
+	}
+	.log{
+		transition: 0.5s linear;
+	}
+	.log:hover{
+		transform: scale(0.8);
+	}
+	.ic img{
+		transition: 1.5s linear;
+	}
+	.ic img:hover{
+		transform: scale(1.2);
+	}
+	
+
+
+/* Footer */
+	footer{
+		padding: 30px;
+		padding-bottom: 0%;
+		background-color: #231f20;
+		margin-bottom: 0%;
+		font-size: 12px;
+		font-family: 'Wellfleet', cursive;
+	}
+	footer p{
+		font-size: 0.75rem;
+		padding: 12px;
+		margin-bottom: 0px;
+	}
+	.iconos-redes{
+		width: 100%;
+	}
+	footer .row{
+		padding: 10px;
+	}
+	footer .iconos-redes{
+		width: 100%;
+	}
+	footer .rs{
+		padding: 20px;
+	}
+	footer a{
+		text-decoration: none;
+		color: #EBEBEB;
+	}
+	footer a:hover{
+		color: #6F6F6F;
+	}
+	footer hr{
+		color: #EBEBEB;
+	}
+
+
+/* Body */
+	
+	body{
+		background-color: #0a0a0a;
+		font-family: 'Wellfleet', cursive;
+	}
+	.principal{
+		padding-top: 50px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.principal img{
+		width: 100%;
+	}
+	.cuadro{
+		transition-property: width;
+		transition-timing-function: linear;
+		transition-duration: 0.5s;
+	}
+	.cuadro:hover{
+		width: 101%;
+	}
+	.carro{
+		padding-top: 20px;
+	}
+	.anun img{
+		width: 30px;
+		margin-right: 10px;
+		max-width: 50px;
+	}
+	.anun{
+		color: #ffc627;
+		font-family: 'Wellfleet', cursive;
+		width: 100%;
+	}
+	/* grid css */
+
+		.grid-container{
+			width: 100%;
+			display: grid;
+			grid-template-columns: 100%;
+		}
+		.grid-container h5{
+			color: #ffc627;
+			font-family: 'Wellfleet', cursive;
+			padding-top: 10px;
+		}
+		.grid-item{
+			color: #f8f9fa;
+			font-family: 'Wellfleet', cursive;
+		}
+	/* flexbox */
+
+		.contenedor{
+			display: flex;
+			flex-direction: column;
+		}
+		.item-flex h5{
+			color: #ffc627;
+			font-family: 'Wellfleet', cursive;
+			padding-top: 10px;
+		}
+		.item-flex p{
+			color: #f8f9fa;
+			font-family: 'Wellfleet', cursive;
+		}
+		.item-flex a{
+			font-family: 'Wellfleet', cursive;
+			text-decoration: none;
+			color: #FFC627;
+		}
+		.abajo .item-flex{
+			padding: 10px;
+		}
+		.abajo{
+			margin-bottom: 10px;
+		}
+		.segundo{
+			color: #FFC627;
+			width: 100%;
+		}
+		.abajo a:hover{
+			color: #f8f9fa;
+		}
+	/* segunda pag */
+
+		.secundaria{
+			padding-top: 50px;
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+		.famous img{
+			width: 100%;
+			padding-bottom: 10px;
+			animation-duration: 2s;
+			animation-name: olas;
+		}
+		@keyframes olas{
+			from{
+				transform: scale(1.5);
+				transform: rotate(180deg);
+				width: 10%;
+			}
+			to{
+				transform: scale(1.0);
+				width: 100%;
+			}
+		}
+		.famous p{
+			color: #f8f9fa;
+			font-family: 'Wellfleet', cursive;
+			width: 100%;
+		}
+		.famous h3{
+			color: #ffc627;
+			font-family: 'Wellfleet', cursive;
+			padding-top: 10px;
+		}
+		.infonut p{
+			color: #f8f9fa;
+			font-family: 'Wellfleet', cursive;
+			width: 100%;
+		}
+		.infonut h4{
+			color: #ffc627;
+			font-family: 'Wellfleet', cursive;
+			padding-top: 10px;
+		}
+		.secundaria .gd img{
+			width: 100%;
+		}
+		.gd h5{
+			color: #ffc627;
+			font-family: 'Wellfleet', cursive;
+			padding-top: 10px;
+		}
+		.terciaria .container{
+			padding-top: 50px;
+		}
+		.terciaria h2{
+			color: #ffc627;
+			font-family: 'Wellfleet', cursive;
+			font-size: 40px;
+		}
+		.terciaria p{
+			color: #f8f9fa;
+			font-family: 'Wellfleet', cursive;
+		}
+		.terciaria input{
+			margin-top: 15px;
+		}
+		.chikito{
+			color: #f8f9fa;
+			font-family: 'Wellfleet', cursive;
+			font-size: 12px;
+		}
+		.dr{
+			margin-top: 20px;
+			margin-bottom: 15px;
+		}
+		.formu{
+			padding-bottom: 20px;
+		}
+		.terciaria label{
+			color: #f8f9fa;
+			font-family: 'Wellfleet', cursive;
+			margin-top: 10px;
+		}
+		.terciaria a{
+			color: #ffc627;
+			text-decoration: none;
+		}
+		.notic{
+			padding-top: 20px;
+		}
+		.notic h4{
+			color: #f8f9fa;
+			font-family: 'Wellfleet', cursive;
+		}
+		.notic li{
+			color: #ffc627;
+			text-decoration: none;
+		}
+		.formu a:hover{
+			color: #D3A421;
+		}
+		.notic a:hover{
+			color: #D3A421;
+		}
+		.tercero{
+			color: #FFC627;
+			width: 100%;
+		}
+
+
+
+		
+		
+		

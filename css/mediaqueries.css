@@ -1,0 +1,131 @@
+/*// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {  }
+
+@media (min-width: 576px) and (orientation:landscape){ 
+	
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+	footer .cl{
+		display: inline-block;
+		width: 30%;
+	}
+	footer .iconos-redes{
+		width: 40%;
+		display: inline-block;
+	}
+	footer svg{
+		width: 30px;
+	}
+	.grid-container{
+		max-width: 88%;
+		grid-template-columns: 35% 35% 35%;
+		align-content: center;
+		grid-gap: 30px;
+	}
+	.contenedor{
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	.item-flex{
+		max-width: 30%;
+	}
+	.item-flex img{
+		width: 100%;
+	}
+	.segundo, .tercero{
+		width: 100%;
+	}
+	.famous img{
+		padding-bottom: 20px;
+	}
+	.famous p{
+		font-size: 20px;
+	}
+	.famous h3{
+		font-size: 50px;
+	}
+
+	
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+	.nav-item, .navbar-brand {
+	    padding: 0.5rem 0.5rem;
+	}
+	.grid-container{
+		max-width: 90%;
+	}
+
+}
+
+
+/*// X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+	.nav-item, .navbar-brand {
+	    padding: 0.5rem 1.5rem;
+	}
+	.principal img{
+		width: 58%;
+	}
+	.carro{
+		padding-left: 21%;
+		padding-right: 21%;
+		padding-top: 30px;
+	}
+	.anun{
+		padding-left: 21%;
+	}
+	.grid-container{
+		padding-left: 21%;
+		padding-top: 2%;
+		grid-template-columns: 50% 50% 50%;
+		align-content: center;
+		justify-items: center;
+		max-width: 57%;
+	}
+	.grid-item img{
+		width: 100%;
+	}
+	.contenedor{
+		justify-content: safe center;
+	}
+	.item-flex{
+		max-width: 20%;
+		padding: 2%;
+	}
+	.item-flex img{
+		width: 100%;
+	}
+	.segundo{
+		width: 60%;
+		margin-left: 20%;
+	}
+	.secundaria .container{
+		max-width: 60%;
+	}
+	
+}
+
+/*// XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+	.grid-container{
+		max-width: 57.5%;
+	}
+	.item-flex{
+		max-width: 20%;
+		padding: 1%;
+	}
+
+}
+
+/*// XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1600px) { 
+
+}
